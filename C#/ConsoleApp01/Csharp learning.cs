@@ -1,4 +1,4 @@
-/*
+
 //030426
 Console.WriteLine("Hello World !");
 Console.Write("Congratulations!");
@@ -153,7 +153,7 @@ Console.WriteLine($"Nicolas: \t {nicolasscore} \t B");
 Console.WriteLine($"Zahirah: \t {zahirahscore} \t B");
 Console.WriteLine($"Jeong:   \t {jeongscore} \t A");
 
-*/
+
 string studentn = "Sophia Johnson";
 Console.WriteLine(studentn);
 
