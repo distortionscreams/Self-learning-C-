@@ -84,9 +84,42 @@ namespace C_learning2
 
             }
 
+            //080426
+            Console.WriteLine($"First: {fraudulentOrderIDs[0]}");
+            Console.WriteLine($"Second: {fraudulentOrderIDs[1]}");
+            Console.WriteLine($"Third: {fraudulentOrderIDs[2]}");
+
+            fraudulentOrderIDs[0] = "F000";
+            Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
+            Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to process.");
+
+            foreach (string name in names)
+            {
+                Console.WriteLine(name);
+            }
+
+            foreach (int items in inventory)
+            {
+                sum += items;
+                bin++;
+                Console.WriteLine($"Bin {bin} = {items} items (Running total: {sum})");
+
+            }
+
+            Console.WriteLine($"We have {sum} items in inventory.");
+
+            foreach (string productid in productsids)
+            {
+                if (productid.StartsWith("B"))
+                {
+                    //Console.WriteLine($"The name starts with 'B' !");
+                    Console.WriteLine(productid);
+                }
 
 
-
+            }
         }
     }
 }
+    
+

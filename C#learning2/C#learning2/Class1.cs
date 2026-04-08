@@ -19,7 +19,7 @@ namespace C_learning2
         public static int firstvalue = 500;
         public static int secondvalue = 600;
         public static int largervalue = Math.Max(firstvalue, secondvalue);
-        
+
         public static int roll4 = dice.Next(1, 7);
         public static int roll5 = dice.Next(1, 7);
         public static int roll6 = dice.Next(1, 7);
@@ -32,9 +32,14 @@ namespace C_learning2
         public static int daysuntilexp = rand.Next(12);
         public static int discountPercentage = 0;
 
+        //080426
+        public static string[] fraudulentOrderIDs = ["A123", "B456", "C789"];
+        public static string[] names = ["Rowena", "Robin", "Bao"];
+        public static int[] inventory = { 200, 450, 700, 175, 250 };
+        public static int sum = 0;
+        public static int bin = 0;
 
-
-
+        public static string[] productsids = ["B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"];
 
 
 
